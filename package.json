@@ -1,13 +1,13 @@
 {
   "version": "0.1.0",
   "name": "platzi-next",
-  "author": "@jonalvarezz",
+  "author": "@mateombar",
   "private": true,
   "description": "",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "next",
+    "dev": "next dev -p 2222",
     "build": "next build",
     "start": "next start",
     "type-check": "tsc --noEmit"
