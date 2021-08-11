@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev -p 2222",
+    "dev:inspector": "NODE_OPTIONS='--inspect' next dev -p 2223",
     "build": "next build",
     "start": "next start",
     "type-check": "tsc --noEmit"
